@@ -176,13 +176,6 @@ sudo journalctl -u earlyoom -f
 sudo journalctl -u polkit.service -f | grep -E "(Started|Restarting)"
 ```
 
-### Health Check Script
-Run the included verification script:
-
-```bash
-./scripts/health-check.sh
-```
-
 Expected output:
 ```
 ✅ polkitd is running (PID: 671013)
